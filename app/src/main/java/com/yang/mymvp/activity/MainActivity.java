@@ -13,6 +13,7 @@ import com.yang.mymvp.bean.JsonBean;
 import com.yang.mymvp.presenter.MainPresenter;
 import com.yang.mymvp.utils.ToastUtils;
 import com.yang.mymvp.view.MainView;
+import com.yang.mymvp.weight.LoadingDialog;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -21,12 +22,13 @@ import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-public class MainActivity extends BaseActivity<MainPresenter> implements MainView {
+public class MainActivity extends BaseActivity<MainPresenter> implements MainView, View.OnClickListener {
 
     private RecyclerView mRecycler;
     private Button mBtDelete;
     private Button mBtEdit;
     private Button mBtUnQx;
+    private boolean isVisible=true;
     private List<JsonBean.DataBean.ArticleListBean> itemList;
     private ReAdapter reAdapter;
 
@@ -41,6 +43,9 @@ public class MainActivity extends BaseActivity<MainPresenter> implements MainVie
         mBtDelete = findViewById(R.id.BtDelete);
         mBtEdit = findViewById(R.id.BtEdit);
         mBtUnQx = findViewById(R.id.BtUnQx);
+        mBtDelete.setOnClickListener(this);
+        mBtEdit.setOnClickListener(this);
+        mBtUnQx.setOnClickListener(this);
     }
 
     @Override
@@ -50,6 +55,7 @@ public class MainActivity extends BaseActivity<MainPresenter> implements MainVie
 
     @Override
     protected void initData() {
+        showLoading();
         //设置布局管理器
         mRecycler.setLayoutManager(new LinearLayoutManager(this));
         //设置分割线
@@ -62,6 +68,15 @@ public class MainActivity extends BaseActivity<MainPresenter> implements MainVie
         mRecycler.setAdapter(reAdapter);
         //加载数据
         presenter.getData();
+
+        reAdapter.setShowDelete(new ReAdapter.ShowDelete() {
+            @Override
+            public void showDelete(boolean fs) {
+                if(fs){
+                    mBtDelete.setVisibility(View.VISIBLE);
+                }
+            }
+        });
     }
 
 
@@ -74,5 +89,42 @@ public class MainActivity extends BaseActivity<MainPresenter> implements MainVie
     @Override
     public void setToast(String msg) {
         showToast(msg);
+    }
+
+    @Override
+    public void onClick(View v) {
+        switch (v.getId()){
+            case R.id.BtEdit:{
+                //点击编辑模式显示checkbox和取消按钮
+                if(isVisible){
+                    reAdapter.setVisible(isVisible);
+                    //取消按钮显示
+                    mBtUnQx.setVisibility(View.VISIBLE);
+                    isVisible=false;
+                    reAdapter.notifyDataSetChanged();
+                }else{
+                    reAdapter.setVisible(isVisible);
+                    //取消按钮显示
+                    mBtUnQx.setVisibility(View.GONE);
+                    isVisible=true;
+                    reAdapter.notifyDataSetChanged();
+                }
+                break;
+            }
+            case R.id.BtUnQx:{
+                break;
+            }
+            case R.id.BtDelete:{
+                ArrayList<JsonBean.DataBean.ArticleListBean> listBeans = new ArrayList<>();
+                for (int i = 0; i <reAdapter.itemList.size() ; i++) {
+                    if(reAdapter.itemList.get(i).isCheck){
+                        listBeans.add(itemList.get(i));
+                    }
+                }
+                itemList.removeAll(listBeans);
+                reAdapter.notifyDataSetChanged();
+                break;
+            }
+        }
     }
 }

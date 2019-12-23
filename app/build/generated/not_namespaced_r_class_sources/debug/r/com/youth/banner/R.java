@@ -38,8 +38,8 @@ public final class R {
 
         public static final int black_background = 0x7f07005f;
         public static final int gray_radius = 0x7f07006e;
-        public static final int no_banner = 0x7f070085;
-        public static final int white_radius = 0x7f070096;
+        public static final int no_banner = 0x7f070087;
+        public static final int white_radius = 0x7f070098;
     }
     public static final class id {
         private id() {}

@@ -5,9 +5,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.CheckBox;
+import android.widget.CompoundButton;
 import android.widget.TextView;
 
-import com.bumptech.glide.Glide;
 import com.yang.mymvp.R;
 import com.yang.mymvp.bean.JsonBean;
 
@@ -17,7 +17,8 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 public class ReAdapter extends RecyclerView.Adapter {
-    private List<JsonBean.DataBean.ArticleListBean> itemList;
+    private boolean showVisible;
+    public List<JsonBean.DataBean.ArticleListBean> itemList;
     private Context context;
 
     public ReAdapter(List<JsonBean.DataBean.ArticleListBean> itemList, Context context) {
@@ -32,16 +33,39 @@ public class ReAdapter extends RecyclerView.Adapter {
     }
 
     @Override
-    public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, final int position) {
+        itemList.get(position).isCheck(false);
         ItemView itemView= (ItemView) holder;
         itemView.retitle.setText(itemList.get(position).getColumn_name());
         itemView.reYueDu.setText(itemList.get(position).getColumn_name());
+        if(showVisible){
+            itemView.reCheck.setVisibility(View.VISIBLE);
+        }else{
+            itemView.reCheck.setVisibility(View.GONE);
+        }
+        //当check被选中时 删除按钮显示
+        itemView.reCheck.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                if(isChecked){
+                    if(buttonView.isPressed()){
+                        showDelete.showDelete(true);
+                        itemList.get(position).isCheck(true);
+                    }
+                }
+            }
+        });
     }
 
     @Override
     public int getItemCount() {
         return itemList.size();
     }
+
+    public void setVisible(boolean visible) {
+        showVisible=visible;
+    }
+
     class ItemView extends RecyclerView.ViewHolder{
 
         private final CheckBox reCheck;
@@ -54,5 +78,12 @@ public class ReAdapter extends RecyclerView.Adapter {
             reYueDu = itemView.findViewById(R.id.ReYueDu);
             reCheck = itemView.findViewById(R.id.Checked);
         }
+    }
+    public interface ShowDelete{
+        void showDelete(boolean fs);
+    }
+    ShowDelete showDelete;
+    public void setShowDelete(ShowDelete showDelete) {
+        this.showDelete = showDelete;
     }
 }

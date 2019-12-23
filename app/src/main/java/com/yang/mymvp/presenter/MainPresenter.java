@@ -13,6 +13,9 @@ public class MainPresenter extends BasePresenter<MainView> {
         mainModel.getData(new CallBack<JsonBean>() {
             @Override
             public void onReuccess(JsonBean jsonBean) {
+                if(mView !=null){
+                    mView.hideLoading();
+                }
                 if(jsonBean.getCode()==1&&jsonBean.getData() != null){
                     mView.setBean(jsonBean);
                 }
@@ -20,7 +23,12 @@ public class MainPresenter extends BasePresenter<MainView> {
 
             @Override
             public void onFail(String msg) {
-                    mView.setToast(msg);
+                    if(mView!=null){
+                        mView.hideLoading();
+                    }
+                    if(msg!=null){
+                        mView.setToast(msg);
+                    }
             }
         });
     }

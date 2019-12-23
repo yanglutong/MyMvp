@@ -40,32 +40,32 @@
         "source": "C:\\Users\\lutong\\.gradle\\caches\\transforms-2\\files-2.1\\d74b5b498b35fd5cb32d0a6997bb1d3d\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_popup_background_mtrl_mult.9.png"
     },
     {
-        "merged": "D:\\MyMvp\\app\\build\\intermediates\\res\\merged\\debug\\interpolator_btn_radio_to_on_mtrl_animation_interpolator_0.xml.flat",
-        "source": "C:\\Users\\lutong\\.gradle\\caches\\transforms-2\\files-2.1\\d74b5b498b35fd5cb32d0a6997bb1d3d\\appcompat-1.1.0\\res\\interpolator\\btn_radio_to_on_mtrl_animation_interpolator_0.xml"
-    },
-    {
         "merged": "D:\\MyMvp\\app\\build\\intermediates\\res\\merged\\debug\\anim_design_snackbar_in.xml.flat",
         "source": "C:\\Users\\lutong\\.gradle\\caches\\transforms-2\\files-2.1\\2946ca0ea6c89dab7d7d9fbc18e54292\\material-1.0.0\\res\\anim\\design_snackbar_in.xml"
+    },
+    {
+        "merged": "D:\\MyMvp\\app\\build\\intermediates\\res\\merged\\debug\\interpolator_btn_radio_to_on_mtrl_animation_interpolator_0.xml.flat",
+        "source": "C:\\Users\\lutong\\.gradle\\caches\\transforms-2\\files-2.1\\d74b5b498b35fd5cb32d0a6997bb1d3d\\appcompat-1.1.0\\res\\interpolator\\btn_radio_to_on_mtrl_animation_interpolator_0.xml"
     },
     {
         "merged": "D:\\MyMvp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-hdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\lutong\\.gradle\\caches\\transforms-2\\files-2.1\\d74b5b498b35fd5cb32d0a6997bb1d3d\\appcompat-1.1.0\\res\\drawable-ldrtl-hdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
-        "merged": "D:\\MyMvp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\lutong\\.gradle\\caches\\transforms-2\\files-2.1\\d74b5b498b35fd5cb32d0a6997bb1d3d\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
-    },
-    {
         "merged": "D:\\MyMvp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_pressed_holo_light.9.png.flat",
         "source": "C:\\Users\\lutong\\.gradle\\caches\\transforms-2\\files-2.1\\d74b5b498b35fd5cb32d0a6997bb1d3d\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png"
     },
     {
-        "merged": "D:\\MyMvp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
-        "source": "C:\\Users\\lutong\\.gradle\\caches\\transforms-2\\files-2.1\\d74b5b498b35fd5cb32d0a6997bb1d3d\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
+        "merged": "D:\\MyMvp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\lutong\\.gradle\\caches\\transforms-2\\files-2.1\\d74b5b498b35fd5cb32d0a6997bb1d3d\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
     },
     {
         "merged": "D:\\MyMvp\\app\\build\\intermediates\\res\\merged\\debug\\color_switch_thumb_material_dark.xml.flat",
         "source": "C:\\Users\\lutong\\.gradle\\caches\\transforms-2\\files-2.1\\d74b5b498b35fd5cb32d0a6997bb1d3d\\appcompat-1.1.0\\res\\color\\switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "D:\\MyMvp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
+        "source": "C:\\Users\\lutong\\.gradle\\caches\\transforms-2\\files-2.1\\d74b5b498b35fd5cb32d0a6997bb1d3d\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
     },
     {
         "merged": "D:\\MyMvp\\app\\build\\intermediates\\res\\merged\\debug\\animator_mtrl_fab_transformation_sheet_expand_spec.xml.flat",
@@ -100,16 +100,20 @@
         "source": "C:\\Users\\lutong\\.gradle\\caches\\transforms-2\\files-2.1\\d74b5b498b35fd5cb32d0a6997bb1d3d\\appcompat-1.1.0\\res\\drawable\\abc_btn_colored_material.xml"
     },
     {
-        "merged": "D:\\MyMvp\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_chip_ripple_color.xml.flat",
-        "source": "C:\\Users\\lutong\\.gradle\\caches\\transforms-2\\files-2.1\\2946ca0ea6c89dab7d7d9fbc18e54292\\material-1.0.0\\res\\color\\mtrl_chip_ripple_color.xml"
-    },
-    {
         "merged": "D:\\MyMvp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_abc_edit_text_material.xml.flat",
         "source": "C:\\Users\\lutong\\.gradle\\caches\\transforms-2\\files-2.1\\d74b5b498b35fd5cb32d0a6997bb1d3d\\appcompat-1.1.0\\res\\drawable-v21\\abc_edit_text_material.xml"
     },
     {
+        "merged": "D:\\MyMvp\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_chip_ripple_color.xml.flat",
+        "source": "C:\\Users\\lutong\\.gradle\\caches\\transforms-2\\files-2.1\\2946ca0ea6c89dab7d7d9fbc18e54292\\material-1.0.0\\res\\color\\mtrl_chip_ripple_color.xml"
+    },
+    {
         "merged": "D:\\MyMvp\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_list_menu_item_layout.xml.flat",
         "source": "C:\\Users\\lutong\\.gradle\\caches\\transforms-2\\files-2.1\\d74b5b498b35fd5cb32d0a6997bb1d3d\\appcompat-1.1.0\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\MyMvp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_loading.png.flat",
+        "source": "D:\\MyMvp\\app\\src\\main\\res\\drawable\\icon_loading.png"
     },
     {
         "merged": "D:\\MyMvp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat",
@@ -280,6 +284,10 @@
         "source": "C:\\Users\\lutong\\.gradle\\caches\\transforms-2\\files-2.1\\f01b27bb220ecb79298884ef36a7a2fb\\core-1.1.0\\res\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png"
     },
     {
+        "merged": "D:\\MyMvp\\app\\build\\intermediates\\res\\merged\\debug\\layout_loading_dialog.xml.flat",
+        "source": "D:\\MyMvp\\app\\src\\main\\res\\layout\\loading_dialog.xml"
+    },
+    {
         "merged": "D:\\MyMvp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
         "source": "C:\\Users\\lutong\\.gradle\\caches\\transforms-2\\files-2.1\\d74b5b498b35fd5cb32d0a6997bb1d3d\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
     },
@@ -340,24 +348,24 @@
         "source": "C:\\Users\\lutong\\.gradle\\caches\\transforms-2\\files-2.1\\d74b5b498b35fd5cb32d0a6997bb1d3d\\appcompat-1.1.0\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     },
     {
-        "merged": "D:\\MyMvp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_loading_04.png.flat",
-        "source": "C:\\Users\\lutong\\.gradle\\caches\\transforms-2\\files-2.1\\6d2e0b56c714a66d4d01f23857d26e0f\\jetified-xrecyclerview-1.5.9\\res\\drawable-hdpi-v4\\loading_04.png"
-    },
-    {
         "merged": "D:\\MyMvp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
         "source": "C:\\Users\\lutong\\.gradle\\caches\\transforms-2\\files-2.1\\d74b5b498b35fd5cb32d0a6997bb1d3d\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "D:\\MyMvp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_loading_04.png.flat",
+        "source": "C:\\Users\\lutong\\.gradle\\caches\\transforms-2\\files-2.1\\6d2e0b56c714a66d4d01f23857d26e0f\\jetified-xrecyclerview-1.5.9\\res\\drawable-hdpi-v4\\loading_04.png"
     },
     {
         "merged": "D:\\MyMvp\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_color_highlight_material.xml.flat",
         "source": "C:\\Users\\lutong\\.gradle\\caches\\transforms-2\\files-2.1\\d74b5b498b35fd5cb32d0a6997bb1d3d\\appcompat-1.1.0\\res\\color-v23\\abc_color_highlight_material.xml"
     },
     {
-        "merged": "D:\\MyMvp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "D:\\MyMvp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
-    },
-    {
         "merged": "D:\\MyMvp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
         "source": "C:\\Users\\lutong\\.gradle\\caches\\transforms-2\\files-2.1\\d74b5b498b35fd5cb32d0a6997bb1d3d\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\MyMvp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "D:\\MyMvp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
         "merged": "D:\\MyMvp\\app\\build\\intermediates\\res\\merged\\debug\\anim_btn_radio_to_on_mtrl_dot_group_animation.xml.flat",
@@ -1532,6 +1540,10 @@
         "source": "C:\\Users\\lutong\\.gradle\\caches\\transforms-2\\files-2.1\\d74b5b498b35fd5cb32d0a6997bb1d3d\\appcompat-1.1.0\\res\\layout\\abc_screen_content_include.xml"
     },
     {
+        "merged": "D:\\MyMvp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_loading_img.xml.flat",
+        "source": "D:\\MyMvp\\app\\src\\main\\res\\drawable\\loading_img.xml"
+    },
+    {
         "merged": "D:\\MyMvp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\lutong\\.gradle\\caches\\transforms-2\\files-2.1\\d74b5b498b35fd5cb32d0a6997bb1d3d\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
     },
@@ -1728,12 +1740,12 @@
         "source": "C:\\Users\\lutong\\.gradle\\caches\\transforms-2\\files-2.1\\d74b5b498b35fd5cb32d0a6997bb1d3d\\appcompat-1.1.0\\res\\color\\abc_hint_foreground_material_light.xml"
     },
     {
-        "merged": "D:\\MyMvp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_half_black_48dp.png.flat",
-        "source": "C:\\Users\\lutong\\.gradle\\caches\\transforms-2\\files-2.1\\d74b5b498b35fd5cb32d0a6997bb1d3d\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_48dp.png"
-    },
-    {
         "merged": "D:\\MyMvp\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_tabs_icon_color_selector.xml.flat",
         "source": "C:\\Users\\lutong\\.gradle\\caches\\transforms-2\\files-2.1\\2946ca0ea6c89dab7d7d9fbc18e54292\\material-1.0.0\\res\\color\\mtrl_tabs_icon_color_selector.xml"
+    },
+    {
+        "merged": "D:\\MyMvp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_half_black_48dp.png.flat",
+        "source": "C:\\Users\\lutong\\.gradle\\caches\\transforms-2\\files-2.1\\d74b5b498b35fd5cb32d0a6997bb1d3d\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_48dp.png"
     },
     {
         "merged": "D:\\MyMvp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",

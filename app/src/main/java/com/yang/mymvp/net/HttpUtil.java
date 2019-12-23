@@ -2,6 +2,7 @@ package com.yang.mymvp.net;
 
 import android.util.Log;
 
+import com.yang.mymvp.base.Constants;
 import com.yang.mymvp.utils.SystemUtil;
 
 import java.io.File;

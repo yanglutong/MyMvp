@@ -1,8 +1,8 @@
-package com.yang.mymvp.net;
+package com.yang.mymvp.base;
 
 import android.os.Environment;
 
-import com.yang.mymvp.base.BaseApp;
+
 
 import java.io.File;
 

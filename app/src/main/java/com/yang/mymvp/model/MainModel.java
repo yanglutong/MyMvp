@@ -6,7 +6,7 @@ import com.yang.mymvp.base.BaseModel;
 import com.yang.mymvp.bean.JsonBean;
 import com.yang.mymvp.net.ApiService;
 import com.yang.mymvp.net.CallBack;
-
+import com.yang.mymvp.utils.LogUtils;
 
 
 import io.reactivex.Observable;
@@ -36,7 +36,7 @@ public class MainModel extends BaseModel {
 
                     @Override
                     public void onNext(JsonBean jsonBean) {
-                        Log.i("杨路通", "onNext: " + jsonBean.toString());
+                        LogUtils.log(jsonBean.toString());
                         callBack.onReuccess(jsonBean);
                     }
 

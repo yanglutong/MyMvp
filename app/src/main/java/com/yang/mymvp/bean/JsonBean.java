@@ -321,7 +321,10 @@ public class JsonBean {
             private String share_link;
             private String video_is_sans_href;
             private String video_url;
-
+            public boolean isCheck;
+            public boolean isCheck(boolean isCheck){
+                return this.isCheck=isCheck;
+            }
             public String getId() {
                 return id;
             }
